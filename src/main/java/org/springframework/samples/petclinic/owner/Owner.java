@@ -15,18 +15,14 @@
  */
 package org.springframework.samples.petclinic.owner;
 
-import javax.validation.constraints.Digits;
-import javax.validation.constraints.NotEmpty;
-
 import org.springframework.core.style.ToStringCreator;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 import org.springframework.data.couchbase.core.mapping.id.GenerationStrategy;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.NotEmpty;
 
 /**
  * Simple JavaBean domain object representing an owner.

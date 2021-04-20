@@ -15,15 +15,14 @@
  */
 package org.springframework.samples.petclinic.vet;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.validation.constraints.NotEmpty;
-import javax.xml.bind.annotation.XmlElement;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
+
+import javax.validation.constraints.NotEmpty;
+import javax.xml.bind.annotation.XmlElement;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Simple JavaBean domain object representing a veterinarian.

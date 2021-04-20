@@ -15,12 +15,11 @@
  */
 package org.springframework.samples.petclinic.owner;
 
-import java.util.Collection;
-import java.util.List;
-
 import org.springframework.data.couchbase.repository.ScanConsistency;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
+
+import java.util.List;
 
 import static com.couchbase.client.java.query.QueryScanConsistency.REQUEST_PLUS;
 

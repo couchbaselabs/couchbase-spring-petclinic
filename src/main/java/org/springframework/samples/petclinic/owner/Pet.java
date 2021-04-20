@@ -15,25 +15,18 @@
  */
 package org.springframework.samples.petclinic.owner;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
-
-import javax.validation.constraints.NotEmpty;
-
 import org.springframework.beans.support.MutableSortDefinition;
 import org.springframework.beans.support.PropertyComparator;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
 import org.springframework.data.couchbase.core.mapping.id.GenerationStrategy;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.samples.petclinic.visit.Visit;
+
+import javax.validation.constraints.NotEmpty;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Simple business object representing a pet.

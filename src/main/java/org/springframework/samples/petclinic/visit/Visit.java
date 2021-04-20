@@ -15,13 +15,9 @@
  */
 package org.springframework.samples.petclinic.visit;
 
-import org.springframework.data.couchbase.core.mapping.id.GeneratedValue;
-import org.springframework.data.couchbase.core.mapping.id.GenerationStrategy;
-
+import javax.validation.constraints.NotEmpty;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import javax.validation.constraints.NotEmpty;
 
 /**
  * Simple JavaBean domain object representing a visit.
