@@ -13,17 +13,16 @@
 <br><br>
 <div class="row" id="showJustOnGitPod" style="display: none">
   <div class="col-md-12">
-    <p><strong style="color:red">Couchbase WebConsole:&nbsp;</strong><span id="cbgitpod"><a href="#">asdsadasdsdd</a></span></p>
+    <p><strong style="color:red">Couchbase WebConsole:&nbsp;</strong><span id="cbgitpod"><a href="#"></a></span></p>
     <p><strong>username:&nbsp;</strong>Administrator<br></p>
     <p><strong>password:&nbsp;</strong>password<br></p>
   </div>
-  <a target="_blank"></a>
 </div>
 
 </div>
-</body>
 
-<script type="text/javascript">
+<script th:inline="javascript">
+/*<![CDATA[*/
 
   if(window.location.href.indexOf("gitpod.io") > -1) {
     document.getElementById("showJustOnGitPod").style.display = "block";
@@ -31,6 +30,11 @@
     const span = document.getElementById('cbgitpod');
     span.innerHTML = "<a href='"+webconsole+"' target='_blank'>"+webconsole+"</a>"
   }
+
+/*]]>*/
 </script>
+</body>
+
+
 
 </html>
