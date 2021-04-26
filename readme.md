@@ -3,14 +3,14 @@
 Couchbase Spring PetClinic is a fork from the original Spring Pet Clinic adapted to work with Couchbase.
 
 ## Running PetClinic on GitPod
-To run this app on GitPod simply click [here](https://gitpod.io/#https://github.com/deniswsrosa/couchbase-spring-petclinic.git)
+To run this app on GitPod simply click [here](https://gitpod.io/#https://github.com/couchbaselabs/couchbase-spring-petclinic.git)
 
 ## Running petclinic locally
 Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 
 ```
-git clone https://github.com/deniswsrosa/couchbase-spring-petclinic
+git clone https://github.com/couchbaselabs/couchbase-spring-petclinic
 cd spring-petclinic
 ./mvnw package
 java -jar target/*.jar
@@ -27,7 +27,7 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 ```
 
 ## In case you find a bug/suggested improvement for Spring Petclinic
-Our issue tracker is available here: https://github.com/deniswsrosa/couchbase-spring-petclinic/issues
+Our issue tracker is available here: https://github.com/couchbaselabs/couchbase-spring-petclinic/issues
 
 
 ## Database configuration
@@ -51,7 +51,7 @@ The following items should be installed in your system:
 
 1) On the command line
     ```
-    git clone https://github.com/deniswsrosa/couchbase-spring-petclinic
+    git clone https://github.com/couchbaselabs/couchbase-spring-petclinic
     ```
 2) Inside Eclipse or STS
     ```
@@ -78,7 +78,7 @@ The following items should be installed in your system:
 |--------------------------|---|
 |The Main Class | [PetClinicApplication](https://github.com/spring-projects/spring-petclinic/blob/main/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java) |
 |Caching | [CacheConfiguration](https://github.com/spring-projects/spring-petclinic/blob/main/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java) |
-|Couchbase Configuration | [CouchbaseConfig](https://github.com/deniswsrosa/couchbase-spring-petclinic/blob/main/src/main/java/org/springframework/samples/petclinic/config/CouchbaseConfig.java) |
+|Couchbase Configuration | [CouchbaseConfig](https://github.com/couchbaselabs/couchbase-spring-petclinic/blob/main/src/main/java/org/springframework/samples/petclinic/config/CouchbaseConfig.java) |
 
 
 ## Interesting Spring Petclinic branches and forks
@@ -92,7 +92,7 @@ that could be used to implement the Pet Clinic then please join the community th
 
 # Contributing
 
-The [issue tracker](https://github.com/deniswsrosa/couchbase-spring-petclinic/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
+The [issue tracker](https://github.com/couchbaselabs/couchbase-spring-petclinic/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
 
 For pull requests, editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org>. If you have not previously done so, please fill out and submit the [Contributor License Agreement](https://cla.pivotal.io/sign/spring).
 
