@@ -8,7 +8,7 @@ tasks:
   command: while [[ "$(curl -s -o /dev/null -w ''%{http_code}'' -u Administrator:password localhost:8091/pools/default)" != "200" ]]; do sleep 5; done && couchbase-cli bucket-create -c localhost:8091 --username Administrator --password password --bucket default --bucket-type couchbase --bucket-ramsize 256
 - name: Start app
   init: ./mvnw package -DskipTests
-  command: java -jar target/*.jar
+  command: while [[ "$(curl -s -o /dev/null -w ''%{http_code}'' -u Administrator:password localhost:8091/pools/default/buckets/default)" != "200" ]]; do sleep 5; done && java -jar target/*.jar
 
 # exposed ports
 ports:
